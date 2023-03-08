@@ -1,0 +1,11 @@
+#!/bin/bash
+#author: p.djamen
+#date: 03/08/23
+#description: "script to install docker-compose on centos7 and ubuntu"
+
+
+
+curl -SL https://github.com/docker/compose/releases/download/$COMPOSE_VERSION/docker-compose-linux-x86_64 -o $DOCKER_CONFIG/cli-plugins/docker-compose
+chmod +x $DOCKER_CONFIG/cli-plugins/docker-compose 
+
+end
